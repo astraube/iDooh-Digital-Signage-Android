@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uid_name" msgid="3371120195364560632">"Top Straube apps"</string>
+
+    <!-- Mensagens -->
+    <string name="success.message.thanks">Obrigado!</string>
+
+    <string name="dl.message.title">idooh Update</string>
+    <string name="dl.message.content">Atualização do aplicativo iniciada</string>
+
+    <string name="error.message.oops">Oops!</string>
+    <string name="error.message.defalut">Desculpe, ocorreu um erro!</string>
+    <string name="error.message.try.again">Tente novamente</string>
+    <string name="error.message.network">Sem conexão com Internet</string>
+    <string name="error.message.connect.try.again">Não foi possível se conectar, tente novamente mais tarde!</string>
+    <string name="error.message.connect">Não foi possível se conectar</string>
+    <string name="error.message.call">Falha na conexão. Por favor, tente novamente mais tarde.</string>
+    <string name="error.input.pass">Senha Incorreta</string>
+
+    <string name="msg.ops">Ops...</string>
+    <string name="msg.congratulations">Parabéns...</string>
+    <string name="msg.wait">Aguarde um momento...</string>
+
+    <!-- Actions -->
+    <string name="action.readmore">Ler Mais</string>
+    <string name="action.back">Voltar</string>
+    <string name="action.send">Enviar</string>
+    <string name="action.fullscreen">Ampliar Foto</string>
+    <string name="action.share">Contar aos Amigos</string>
+    <string name="action.reserv">Reservar</string>
+    <string name="action.device.maintenance">Manutenção</string>
+    <string name="action.device.config">Configurações do Equipamento</string>
+    <string name="action.screen.turnoff">Desligar Equipamento</string>
+
+
+    <!-- String Sidebar -->
+    <string name="sidebar.title.address">Endereço</string>
+    <string name="sidebar.title.location.qrcode">Gostou da chamada? Escaneie o QR Code para mais informações.</string>
+
+    <!-- String Reservar -->
+    <string name="reserve.input.datetime">Data e hora da reserva</string>
+    <string name="reserve.msg.send.success">Reserva realizada com sucesso</string>
+    <string name="reserve.msg.send.error">Falha ao realizar a reserva</string>
+
+    <!-- String Compartilhar -->
+    <string name="share.msg.send.success">Compartilhado com sucesso</string>
+    <string name="share.msg.send.error">Falha ao compartilhar</string>
+    <string name="share.dialog.title">Compartilhe Isso!</string>
+    <string name="share.input.title">Digite os e-mails no campo abaixo</string>
+    <string name="share.input.emails">Separe os e-mails com vírgula\n</string>
+    <string name="share.input.for">Para:</string>
+    <string name="share.input.example">sr.exemplo@idooh.com.br</string>
+
+    <!-- String Dialogs -->
+    <string name="dialog.loginconfig.title">Login de configuração</string>
+    <string name="dialog.loginconfig.input.pass">Digite a senha</string>
+
+    <string name="dialog.devicenconfig.title">Configuração de Display</string>
+    <string name="dialog.devicenconfig.input.carboard">Digite a placa do carro</string>
+    <string name="running.mode.demo">Ativar Modo Demo</string>
+    <string name="running.mode.normal">Ativar Modo Normal</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">You have provided too many PendingIntents to the addGeofences() call</string>
+    <string name="unknown_geofence_error">Unknown error: the Geofence service is not available now</string>
+    <string name="geofence_transition_invalid_type">Geofence transition error: invalid transition type %1$d</string>
+
+</resources>

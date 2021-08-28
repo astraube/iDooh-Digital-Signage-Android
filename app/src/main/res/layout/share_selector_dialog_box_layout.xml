@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/share_advert_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_margin="30dp">
+
+        <in.championswimmer.libsocialbuttons.fabs.FABVine
+            android:id="@+id/bt_share_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp" />
+
+        <in.championswimmer.libsocialbuttons.fabs.FABWhatsapp
+            android:id="@+id/bt_share_whatsapp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp" />
+
+        <in.championswimmer.libsocialbuttons.fabs.FABFacebook
+            android:id="@+id/bt_share_facebook"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp" />
+
+        <in.championswimmer.libsocialbuttons.fabs.FABTwitter
+            android:id="@+id/bt_share_twitter"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp" />
+
+        <in.championswimmer.libsocialbuttons.fabs.FABGoogleplus
+            android:id="@+id/bt_share_gplus"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/email_share_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/email_share_description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:text="@string/share.input.emails" />
+
+        <TextView
+            android:id="@+id/recipient_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_share_description_textview"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="8dp"
+            android:text="@string/share.input.for" />
+
+        <EditText
+            android:id="@+id/recipient_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recipient_textview"
+            android:hint="@string/share.input.example"
+            android:lines="2"
+            android:textColor="@color/grey"
+            android:layout_toStartOf="@+id/send_email_button_layout" />
+
+        <Button
+            android:id="@+id/send_email_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="@string/action.send"
+            android:background="@drawable/button_seekbar"
+            android:drawableTop="@drawable/ic_send_grey600_48dp"
+            android:layout_alignBottom="@id/recipient_edittext"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/advert_share_upload_spinner_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/advert_share_upload_progressbar_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msg.wait" />
+
+        <ProgressBar
+            android:id="@+id/advert_share_upload_progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/advert_share_upload_progressbar_textview"
+            android:layout_centerHorizontal="true"
+            android:progressDrawable="@drawable/circular_progress_bar" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

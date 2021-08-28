@@ -1,0 +1,78 @@
+<resources>
+
+    <color name="idooh_roxo_vibrante">#8707F7</color>
+    <color name="idooh_roxo_escuro">#5c3a95</color>
+    <color name="idooh_pink_vibrante">#ed0c5b</color>
+    <color name="idooh_pink_escuro">#ce1156</color>
+    <color name="idooh_turquesa_vibrante">#00ffc4</color>
+    <color name="idooh_turquesa_escuro">#0cddca</color>
+
+    <color name="purple">#FF524E96</color>
+    <color name="purple_dark">#FF474482</color>
+
+    <!--<color name="colorPrimary">#80242B2B</color>-->
+    <color name="colorPrimary">#FF242B2B</color>
+    <color name="colorPrimaryDark">#FF242B2B</color>
+    <color name="colorAccent">#FFF8d424</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <color name="colorStart">#5b83e7</color>
+    <color name="colorEnd">#2e5ed7</color>
+
+    <color name="marca_roxo">#574278</color>
+
+    <color name="half_black">#808080</color>
+    <color name="black">#000000</color>
+    <color name="black_app">#FF221F1F</color>
+    <color name="black_opaque">#A6424242</color>
+    <color name="black_opaque_50">#80000000</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="blue">#FF43B0EB</color>
+    <color name="blue_dark">#FF1C252F</color>
+    <color name="blue_dark_opaque">#A61C252F</color>
+    <color name="blue_dark_transparent">#801C252F</color>
+    <color name="green">#FF9ACA3C</color>
+    <color name="grey">#80424242</color>
+    <color name="grey_opaque_50">#80424242</color>
+    <color name="yellow">#FFF8d424</color>
+    <color name="orange">#FFFB7F0F</color>
+    <color name="orange_dark">#ffff8800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="white_opaque">#26FFFFFF</color>
+    <color name="white_opaque_50">#80FFFFFF</color>
+
+    <color name="main_navigation_button_normal">@color/transparent</color>
+    <color name="main_navigation_button_selected">@color/yellow</color>
+    <color name="main_navigation_background">@android:color/black</color>
+    <color name="main_taskbar_background">#FF0D1010</color> <!-- #FF242B2B -->
+    <color name="main_content_sidebar_bg">#FF0D1010</color>
+
+    <color name="redPrimary">#DA4336</color>
+    <color name="redSecondary">#FF5252</color>
+    <color name="redSecondaryLight">#FFFF7777</color>
+
+    <!-- https://github.com/pedant/sweet-alert-dialog -->
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+</resources>

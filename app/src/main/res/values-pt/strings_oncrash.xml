@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Essas seqüências são apenas para a atividade de erro personalizada, se você estiver usando a atividade padrão, eles não são necessários! -->
+    <string name="error_title">Algo deu errado!</string>
+    <string name="error_occurred">Ocorreu um erro. Nós estamos profundamente arrependidos!</string>
+    <string name="error_details">Detalhes do Erro:</string>
+    <string name="unknown_exception">Erro desconhecido</string>
+    <string name="restart_app">Reiniciar app</string>
+    <string name="close_app">Fechar app</string>
+
+    <!-- Algumas seqüências personalizadas para a atividade de erro padrão -->
+    <!-- isso só se aplica quando se utiliza a atividade de erro padrão -->
+    <!-- Para vê-los, desative a atividade de erro personalizada no aplicativo Crashing Amostra -->
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">Ocorreu um erro neste aplicativo de amostra. Esta é a atividade de erro padrão com sequências personalizadas.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Nenhum rastreamento de pilha disponível!</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Reinicie agora</string>
+    <string name="customactivityoncrash_error_activity_close_app">Fechar agora</string>
+    <string name="customactivityoncrash_error_activity_error_details">Informações de erro</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Informações de erro</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">OK</string>
+</resources>

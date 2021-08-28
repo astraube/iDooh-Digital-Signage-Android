@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/playlist_main_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" /> <!-- scaleType nao pode ter, a imagem deve ter um tamanho adequado para nao distorcer -->
+
+    <!--<br.com.i9algo.taxiadv.ui.components.VerticalTextView-->
+        <!--android:id="@+id/playlist_mainimage_photo_source_vertical_textview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="64dp"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="FOTO: fotografo"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:lines="1"-->
+        <!--android:background="@drawable/bg_news_fonte_foto"/>-->
+
+    <LinearLayout
+        android:id="@+id/playlist_content_box_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playlist_news_source_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_news_barra" >
+
+        <ImageView
+            android:id="@+id/playlist_source_imageview"
+            android:layout_width="@dimen/playlist_news_source_image"
+            android:layout_height="@dimen/playlist_news_source_image"
+            android:background="@color/blue_dark_opaque"
+            android:scaleType="centerCrop"/>
+        
+        <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+        	android:background="@drawable/bg_news_barra">
+
+            <TextView
+                android:id="@+id/playlist_header_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10dp"
+                android:lines="1"
+                android:text="fonte | titulo"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dip" />
+
+            <TextView
+                android:id="@+id/playlist_body_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/playlist_header_textview"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:lines="4"
+                android:text="body"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+		</RelativeLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:progressDrawable="@drawable/progress_bar"
+        android:visibility="gone"/>
+
+</RelativeLayout>

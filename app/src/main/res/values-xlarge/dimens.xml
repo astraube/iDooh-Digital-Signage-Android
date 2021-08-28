@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Screen Size 1152x675
+
+        Vallues are 25% larger than 800Dp
+
+        Tested to be compatible with Positivo YPY 1050
+    -->
+    <dimen name="playlist_min_width">750dp</dimen>
+
+    <dimen name="instagram_image_width">527dp</dimen>
+    <dimen name="instagram_image_height">382dp</dimen>
+    <dimen name="instagram_bar_height">75dp</dimen>
+
+    <dimen name="sidebar_grid_item_width">175dp</dimen>
+    <dimen name="sidebar_grid_item_height">175dp</dimen>
+</resources>

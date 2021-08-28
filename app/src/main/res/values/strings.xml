@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">idooh Mídia</string>
+
+    <string name="uid_name" msgid="00000000000">"Top Straube apps"</string>
+
+    <!-- AdMob -->
+    <string name="admob_id">ca-app-pub-00000000000~00000000000</string>
+    <string name="banner_ad_unit_id">ca-app-pub-00000000000/00000000000</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-00000000000/00000000000</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!-- Mensagens -->
+    <string name="success.message.thanks">Thank you!</string>
+
+    <string name="dl.message.title">idooh Update</string>
+    <string name="dl.message.content">Application update started</string>
+
+    <string name="error.message.oops">Oops!</string>
+    <string name="error.message.defalut">Sorry, an error occurred!</string>
+    <string name="error.message.try.again">Try again</string>
+    <string name="error.message.network">No internet connection</string>
+    <string name="error.message.connect.try.again">Could not connect, try again later!</string>
+    <string name="error.message.connect">Could not connect</string>
+    <string name="error.message.call">Connection fail. Please try again later.</string>
+    <string name="error.input.pass">Wrong Password</string>
+
+    <string name="msg.ops">Oops...</string>
+    <string name="msg.congratulations">Congratulations...</string>
+    <string name="msg.wait">Wait a moment...</string>
+
+    <!-- Actions -->
+    <string name="action.readmore">Read More</string>
+    <string name="action.back">Back</string>
+    <string name="action.send">Send</string>
+    <string name="action.fullscreen">Zoom image</string>
+    <string name="action.share">Share Friends</string>
+    <string name="action.reserv">Reserve</string>
+    <string name="action.device.maintenance">Maintenance</string>
+    <string name="action.device.config">Equipment Settings</string>
+    <string name="action.screen.turnoff">Turn off Equipment</string>
+
+
+    <!-- String Sidebar -->
+    <string name="sidebar.title.address">Address</string>
+    <string name="sidebar.title.location.qrcode">Did you like the call? Scan the QR Code for more information.</string>
+
+    <!-- String Reservar -->
+    <string name="reserve.input.datetime">Date and time of reservation</string>
+    <string name="reserve.msg.send.success">Reservation successful</string>
+    <string name="reserve.msg.send.error">Failed to make reservation</string>
+
+    <!-- String Compartilhar -->
+    <string name="share.msg.send.success">Successfully shared</string>
+    <string name="share.msg.send.error">Failed to share</string>
+    <string name="share.dialog.title">Share This!</string>
+    <string name="share.input.title">Enter the recipients below</string>
+    <string name="share.input.emails">Separate emails with a comma\n</string>
+    <string name="share.input.for">For:</string>
+    <string name="share.input.example">sr.exemplo@idooh.com.br</string>
+
+    <!-- String Dialogs -->
+    <string name="dialog.loginconfig.title">Config Login</string>
+    <string name="dialog.loginconfig.input.pass">Password</string>
+
+    <string name="dialog.devicenconfig.title">Display Settings</string>
+    <string name="dialog.devicenconfig.input.carboard">Enter the car plate</string>
+    <string name="running.mode.demo">Enable Demo Mode</string>
+    <string name="running.mode.normal">Enable Normal Mode</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">You have provided too many PendingIntents to the addGeofences() call</string>
+    <string name="unknown_geofence_error">Unknown error: the Geofence service is not available now</string>
+    <string name="geofence_transition_invalid_type">Geofence transition error: invalid transition type %1$d</string>
+
+    <!-- https://github.com/pedant/sweet-alert-dialog -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="updating">Atualizando...</string>
+
+</resources>

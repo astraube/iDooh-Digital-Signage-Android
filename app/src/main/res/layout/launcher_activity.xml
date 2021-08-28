@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:gravity="center"
+    android:background="#EEEEEE">
+
+
+    <!--<com.github.jorgecastillo.FillableLoader
+        android:id="@+id/fillableLoader"
+        android:layout_width="1128dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        app:fl_fillColor="#FFFFFF"
+        app:fl_fillDuration="10000"
+        app:fl_strokeDrawingDuration="5000"
+        app:fl_strokeWidth="4dp"
+        app:fl_strokeColor="#FFFFFF"
+        app:fl_originalWidth="600"
+        app:fl_originalHeight="220"
+        app:fl_clippingTransform="waves"/>-->
+
+    <VideoView
+        android:id="@+id/videoLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

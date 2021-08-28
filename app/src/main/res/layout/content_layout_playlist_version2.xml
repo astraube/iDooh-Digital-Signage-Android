@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<br.com.i9algo.taxiadv.v2.views.widgets.playlistview.PlaylistViewV2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:scaleType="fitXY"
+    android:clickable="true"
+    android:focusable="true">
+
+    <br.com.i9algo.taxiadv.v2.views.widgets.playlistview.PlaylistVideoViewV2
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    
+    <br.com.i9algo.taxiadv.v2.views.widgets.playlistview.PlaylistNewsViewV2
+        android:id="@+id/newsView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="gone"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:layout_alignParentStart="true" />
+
+</br.com.i9algo.taxiadv.v2.views.widgets.playlistview.PlaylistViewV2>

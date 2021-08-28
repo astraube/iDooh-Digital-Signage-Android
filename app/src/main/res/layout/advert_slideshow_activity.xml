@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:comps="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue_dark_transparent">
+
+        <TextView
+            android:id="@+id/messageBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/updating"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:background="@color/white_opaque"
+            android:textSize="40sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/container_taskbar"
+        android:clipChildren="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black">
+
+        <include
+            android:id="@+id/playlist_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/categoryListRecycler"
+            android:layout_centerVertical="false"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            layout="@layout/content_layout_playlist_version2" />
+
+        <FrameLayout
+            android:id="@+id/sidebar_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/categoryListRecycler"
+            android:layout_toRightOf="@+id/playlist_view"
+            android:layout_toEndOf="@+id/playlist_view"
+            android:scaleType="fitXY" />
+
+        <FrameLayout
+            android:id="@+id/geopoints_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/categoryListRecycler"
+            android:layout_toRightOf="@+id/playlist_view"
+            android:layout_toEndOf="@+id/playlist_view"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <br.com.i9algo.taxiadv.ui.recyclers.CategoryListView
+            android:id="@+id/categoryListRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_height"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="bottom"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <include android:id="@+id/container_taskbar" layout="@layout/content_main_taskbar" />
+
+    <!--<com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>-->
+
+    <ImageButton
+        android:id="@+id/btSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/btLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="70dp"
+        android:background="@android:color/transparent" />
+
+    <ScrollView
+        android:id="@+id/scrollDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtDebug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"
+            android:textColor="@color/redPrimary"/>
+    </ScrollView>
+
+</RelativeLayout>

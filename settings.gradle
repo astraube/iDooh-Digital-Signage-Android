@@ -1,0 +1,2 @@
+include ':app'
+//project(':downloadTask.gradle').projectDir = new File('tasks/downloadTask.gradle')

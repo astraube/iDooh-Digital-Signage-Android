@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Screen Size 800x480
+        Tested to be compatible with Multilaser M9
+
+    -->
+    <dimen name="playlist_min_width">600dp</dimen>
+
+    <dimen name="instagram_image_width">465dp</dimen>
+    <dimen name="instagram_image_height">365dp</dimen>
+    <dimen name="instagram_bar_height">50dp</dimen>
+
+    <dimen name="sidebar_grid_item_width">140dp</dimen>
+    <dimen name="sidebar_grid_item_height">140dp</dimen>
+</resources>

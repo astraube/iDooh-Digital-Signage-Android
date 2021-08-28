@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <!-- ToolbarTheme theme -->
+    <style name="Toolbar.HeaderTitleStyle" parent="android:TextAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="Toolbar.ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="Toolbar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:textColor">@color/white</item>
+        <item name="colorPrimary">@color/main_navigation_button_selected</item>
+    </style>
+
+    <style name="Toolbar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textColor">@color/white</item>
+        <item name="colorPrimary">@color/main_navigation_button_selected</item>
+    </style>
+    <!-- END theme -->
+
+
+    <!-- Estilos de Botoes -->
+
+    <style name="ButtonSeekPopup" parent="android:Widget.Button">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:textSize">@dimen/text_big</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:background">@drawable/button_seekbar</item>
+    </style>
+
+    <style name="ButtonCircular" parent="android:Widget.Button">
+        <item name="android:width">@dimen/navigation_button_size</item>
+        <item name="android:height">@dimen/navigation_button_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/button_circular</item>
+    </style>
+
+    <style name="ButtonCircularTransparent" parent="android:Widget.Button">
+        <item name="android:width">@dimen/navigation_button_size</item>
+        <item name="android:height">@dimen/navigation_button_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/button_circular_transparent</item>
+    </style>
+    
+    <style name="ImageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+    
+    <!-- TextView Style. -->
+    <style name="textLargeWhite" parent="android:TextAppearance.Large">
+       <item name="android:textColor">@color/white</item>
+       <item name="android:textSize">@dimen/text_large</item>
+       <item name="android:textStyle">bold</item>
+   	</style>
+   	<style name="textLargeBlack" parent="android:TextAppearance.Large">
+       <item name="android:textColor">@color/black</item>
+       <item name="android:textSize">@dimen/text_large</item>
+       <item name="android:textStyle">bold</item>
+   	</style>
+    
+    <!-- Animação Popups. -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/enter_pop</item>
+        <item name="android:windowExitAnimation">@anim/exit_pop</item>
+    </style>
+    <style name="DialogAnimationCenter">
+        <item name="android:windowEnterAnimation">@anim/enter_from_center</item>
+        <item name="android:windowExitAnimation">@anim/exit_to_center</item>
+    </style>
+    
+    <!-- Animação Popups. -->
+    <style name="ConfigAlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    <!-- Label Floating Button Style. -->
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+    
+    <!--  -->
+    <style name="NoNav" parent="android:Theme.Holo.Light">
+	    <item name="android:windowActionBar">false</item>
+	    <item name="android:windowNoTitle">false</item>
+	</style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TextPropertiesAdvertising">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/bg_textview_line_bottom</item>
+    </style>
+
+    <style name="floatlabelededittext">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+
+    <!-- https://github.com/pedant/sweet-alert-dialog -->
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/sweetalert_blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+</resources>

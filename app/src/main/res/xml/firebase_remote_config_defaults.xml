@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>time_minute_newsession_interaction</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>time_minute_newsession_normal</key>
+        <value>10</value>
+    </entry>
+    <entry>
+        <key>time_minute_min_update_content</key>
+        <value>60</value>
+    </entry>
+    <entry>
+        <key>time_minute_max_update_content</key>
+        <value>60</value>
+    </entry>
+    <entry>
+        <key>audio_max</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>audio_normalize</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>db_save_in_which</key>
+        <value>firebase_database</value>
+    </entry>
+    <entry>
+        <key>endpoint_api</key>
+        <value>http://taxiadv.com.br/api/v3/</value>
+    </entry>
+    <entry>
+        <key>endpoint_apk_update</key>
+        <value>https://taxiadv-dubai.firebaseio.com/apkInfo/update.json</value>
+    </entry>
+    <entry>
+        <key>endpoint_playlist_no_content</key>
+        <value>http://idooh.com.br/default</value>
+    </entry>
+    <entry>
+        <key>color_bg_category</key>
+        <value>#0fa6dd</value>
+    </entry>
+    <entry>
+        <key>password_maintenance</key>
+        <value>infinitoealem</value>
+    </entry>
+    <entry>
+        <key>dimen_taskbar_height</key>
+        <value>50</value>
+    </entry>
+    <entry>
+        <key>close_system_dialog</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>
+<!-- END xml_defaults -->

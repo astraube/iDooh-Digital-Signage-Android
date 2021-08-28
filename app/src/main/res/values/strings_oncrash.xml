@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Essas seqüências são apenas para a atividade de erro personalizada, se você estiver usando a atividade padrão, eles não são necessários! -->
+    <string name="error_title">Something went wrong!</string>
+    <string name="error_occurred">An error has occurred. We are deeply sorry!</string>
+    <string name="error_details">Error information:</string>
+    <string name="unknown_exception">Unknown erroro</string>
+    <string name="restart_app">Restart app</string>
+    <string name="close_app">Close app</string>
+
+    <!-- Algumas seqüências personalizadas para a atividade de erro padrão -->
+    <!-- isso só se aplica quando se utiliza a atividade de erro padrão -->
+    <!-- Para vê-los, desative a atividade de erro personalizada no aplicativo Crashing Amostra -->
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An error occurred in this sample app. This is the default error activity with customized strings.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">No stacktrace available!</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart now</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close now</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error information</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">OK</string>
+</resources>

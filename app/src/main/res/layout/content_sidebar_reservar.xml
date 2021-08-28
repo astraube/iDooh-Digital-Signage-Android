@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<br.com.i9algo.taxiadv.ui.components.SheetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:elevation="2dp"
+    app:ft_color="@color/colorPrimaryDark"
+    app:ft_container_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/reserve_close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_close_black"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp" />
+
+        <LinearLayout
+            android:id="@+id/sheet_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_below="@+id/reserve_close_button"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText
+                android:id="@+id/reserve_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:fletPaddingBottom="10dp"
+                app:fletTextAppearance="@style/floatlabelededittext">
+
+                <EditText
+                    android:id="@+id/reserve_name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_toEndOf="@+id/reserve_name_textview"
+                    android:hint="Seu nome"
+                    android:imeOptions="actionNext"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white_opaque_50"
+                    android:layout_toRightOf="@+id/reserve_name_textview" />
+
+            </br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText>
+
+            <br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText
+                android:id="@+id/reserve_phone_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:fletPaddingBottom="10dp"
+                app:fletTextAppearance="@style/floatlabelededittext">
+
+                <EditText
+                    android:id="@+id/reserve_phone_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Telefone"
+                    android:imeOptions= "actionNext"
+                    android:inputType="phone"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white_opaque_50" />
+
+            </br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText>
+
+            <br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText
+                android:id="@+id/reserve_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                app:fletPaddingBottom="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="datetime"
+                app:fletTextAppearance="@style/floatlabelededittext">
+
+                <TextView
+                    android:id="@+id/reserve_date_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:focusable="true"
+                    android:drawableBottom="@color/main_navigation_button_selected"
+                    android:inputType="datetime"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:text="@string/reserve.input.datetime"
+                    android:textColor="@color/white_opaque_50"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/reserve_date_label_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:clickable="false"
+                    android:drawableBottom="@color/main_navigation_button_selected"
+                    android:inputType="datetime"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+            </br.com.i9algo.taxiadv.ui.components.FloatLabeledEditText>
+
+
+            <Button
+                android:id="@+id/reserve_hero_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/reserve_date_layout"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:background="@drawable/button_selector"
+                android:enabled="false"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:text=" Reservar "
+                android:textAlignment="gravity"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</br.com.i9algo.taxiadv.ui.components.SheetLayout>
