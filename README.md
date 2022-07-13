@@ -1,1 +1,1 @@
-# taxiadv_android
+# Aplicativo android para digital signage
